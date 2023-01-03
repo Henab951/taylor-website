@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HairStylist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <div class="inner-header"></div>
+    <nav>
+        <a href="index.html"><img src="images/logohair.jpg" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="collection.html">COLLECTIONS</a></li>
+                <li><a href="tattoo.html">TATTOO</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+<div class="text-box">
+    <h1>Andi Taylor Beauty House</h1>
+    <p>Making you beautiful is our primariy goal. <br> Beauty, naturality and family
+        is all that matters to us all in Andi Taylor's Beauty House</p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+        
+    </section>
+
+
+<!-------------CLIENT--------------->
+<section class="client">
+    <h1>Our Clients</h1>
+    
+
+    <div class="row">
+        <div class="client-col">
+            <img src="images/client1.JPG" alt="">
+            <div class="layer">
+                <h3>CLARK HADDON</h3>
+            </div>
+        </div>
+        <div class="client-col">
+            <img src="images/client22.JPG" alt="">
+            <div class="layer">
+                <h3>RITA WELLS</h3>
+            </div>
+        </div>
+        <div class="client-col">
+            <img src="images/client3.JPG" alt="">
+            <div class="layer">
+                <h3>KIM JOHN</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-------------Offices--------------->
+
+<section class="hairc">
+    <h1>Our Offices</h1>
+
+    <div class="row">
+        <div class="hairof-col">
+            <img src="images/officepic.jpg" alt="">
+            <h3>ANDI TAYLOR BEAUTY HOUSE</h3>
+            <p>412 West 6th Street Suite, LA</p>
+        </div>
+        <div class="hairof-col">
+            <img src="images/officepic3.jpg" alt="">
+            <h3>ANDI TAYLOR BEAUTY HOUSE</h3>
+            <p>12B, Albert Way, Alabama</p>
+        </div>
+        <div class="hairof-col">
+            <img src="images/officepic2.jpg" alt="">
+            <h3>ANDI TAYLOR BEAUTY HOUSE</h3>
+             <p>14 Newton Walkway, Atlanta</p>
+        </div>
+    </div>
+
+
+
+<!-------------Hair Collections--------------->
+
+<section class="hairof">
+    <h1>Our Hair Collection</h1>
+
+    <div class="row">
+        <div class="hairc-col">
+            <img src="images/haircollection1.jpg" alt="">
+            <h3>Hairline by phia</h3>
+            <p>5x5 closure double drawn bob wig <br>
+            100% human hair available</p>
+        </div>
+        <div class="hairc-col">
+            <img src="images/haircollection2.jpg" alt="">
+            <h3>Lima Wavy</h3>
+            <p>100% human hair available</p>
+        </div>
+        <div class="hairc-col">
+            <img src="images/haircollection3.jpg" alt="">
+            <h3>Crochet Braids</h3>
+             <p>14 inch Goddess Box Braids <br>
+                 100% human hair available</p>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="hairc-col">
+            <img src="images/haircollection4.jpg" alt="">
+            <h3>Human Hair Wigs</h3>
+            <p>Premium Virgin Hair Extension<br>
+                100% human hair available</p>
+        </div>
+        <div class="hairc-col">
+            <img src="images/haircollection5.jpg" alt="">
+            <h3>Hairl Wig With Part Closure</h3>
+            <p>Bob Brand<br>
+                100% human hair available</p>
+        </div>
+        <div class="hairc-col">
+            <img src="images/haircollection6.jpg" alt="">
+            <h3>Virgin Brazillian Hair</h3>
+            <p>True Glory Hair <br>
+                100% human hair available</p>
+        </div>
+    </div>
+</div>
+    
+</section>
+
+
+<!-------------Call to Action--------------->
+<section class="cta">
+<h1>Book Your Appointment now</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!-------------Footer--------------->
+<section class="footer">
+    <h4>About US</h4>
+    <p>For updates and offers, sign up to our website 
+        <br> Simply provide us with your email 
+        address and you're good to go!</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-------------JavaScript for Toggle Menu --------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
